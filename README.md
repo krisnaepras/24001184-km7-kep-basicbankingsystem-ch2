@@ -24,7 +24,7 @@ Dalam studi kasus ini, kita akan membuat sebuah Basic Banking System sederhana m
 ### Cara Menjalankan:
 1. Klon repositori ini:
     ```bash
-    git clone https://github.com/your-username/simple-bank-system.git
+    git clone https://github.com/krisnaepras/24001184-km7-kep-basicbankingsystem-ch2.git
     ```
 2. Buka file `index.html` di peramban web.
 
@@ -42,7 +42,7 @@ Dalam studi kasus ini, kita akan membuat sebuah Basic Banking System sederhana m
 ### Cara Menjalankan:
 1. Klon repositori ini:
     ```bash
-    git clone https://github.com/your-username/simple-bank-system.git
+    git clone https://github.com/krisnaepras/24001184-km7-kep-basicbankingsystem-ch2.git
     ```
 2. Masuk ke direktori proyek:
     ```bash

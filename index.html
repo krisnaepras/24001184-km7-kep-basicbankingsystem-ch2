@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank Account</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+    <div class="w-96 bg-white p-6 rounded-lg shadow-lg text-center">
+        <h1 class="text-2xl font-bold mb-4">
+            Saldo Anda: <span id="balance">Rp0</span>
+        </h1>
+        <div class="flex justify-around mt-6">
+            <button id="deposit-btn" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                Deposit
+            </button>
+            <button id="withdraw-btn" class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">
+                Withdraw
+            </button>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
+        <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+            <h2 id="modal-title" class="text-xl font-bold mb-4"></h2>
+            <input type="number" id="amount-input" class="w-full p-2 border border-gray-300 rounded mb-4"
+                placeholder="Masukkan nominal" />
+            <div class="flex justify-between">
+                <button id="cancel-btn" class="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600">
+                    Batal
+                </button>
+                <button id="confirm-btn" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+                    Konfirmasi
+                </button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="banking_system.js"></script>
+</body>
+
+</html>

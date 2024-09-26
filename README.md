@@ -24,16 +24,16 @@ Dalam studi kasus ini, kita akan membuat sebuah Basic Banking System sederhana m
 ### Cara Menjalankan:
 1. Klon repositori ini:
     ```bash
-    git clone https://github.com/your-username/simple-bank-system.git
+    git clone https://github.com/krisnaepras/24001184-km7-kep-basicbankingsystem-ch2.git
     ```
-2. Buka file `index.html` di peramban web.
+2. Buka file `index.html` di browser.
 
 ## Versi Terminal
 
 ### Cara Kerja:
 1. Menampilkan saldo saat ini di terminal.
-2. Menyediakan menu dengan opsi untuk **Setor**, **Tarik**, atau **Keluar**.
-3. Pengguna dapat memasukkan jumlah yang diinginkan untuk setoran atau penarikan.
+2. Menyediakan menu dengan opsi untuk **Deposit**, **Withdraw**, atau **Exit**.
+3. Pengguna dapat memasukkan jumlah yang diinginkan untuk deposit atau withdraw.
 4. Saldo akan diperbarui setelah setiap operasi, dengan pesan sukses atau kesalahan yang ditampilkan di terminal.
 
 ### Stack Teknologi:
@@ -42,11 +42,11 @@ Dalam studi kasus ini, kita akan membuat sebuah Basic Banking System sederhana m
 ### Cara Menjalankan:
 1. Klon repositori ini:
     ```bash
-    git clone https://github.com/your-username/simple-bank-system.git
+    git clone https://github.com/krisnaepras/24001184-km7-kep-basicbankingsystem-ch2.git
     ```
 2. Masuk ke direktori proyek:
     ```bash
-    cd simple-bank-system
+    cd 24001184-km7-kep-basicbankingsystem-ch2
     ```
 3. Jalankan versi terminal menggunakan Node.js:
     ```bash

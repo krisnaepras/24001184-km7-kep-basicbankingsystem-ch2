@@ -27,7 +27,7 @@ function showModal(action) {
 }
 
 function hideModal() {
-    modal.classList.add('hidden'); 
+    modal.classList.add('hidden');
 }
 
 async function handleTransaction() {
